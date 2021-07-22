@@ -1,0 +1,43 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the string : ");
+        StringBuffer stringbuffer1=new StringBuffer(in.nextLine());
+        System.out.print("Enter the start limit: ");
+        int start_limit=in.nextInt();
+        System.out.print("Enter the end limit: ");
+        int end_limit=in.nextInt();
+        System.out.println("The subsequence is "+stringbuffer1.subSequence(start_limit,end_limit));
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
